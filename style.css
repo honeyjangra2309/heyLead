@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#home {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),
+    url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2d86bb166809064181470_hero-bg.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+nav {
+    display: flex;
+    padding: 5em;
+}
+nav h1 {
+    flex: 1;
+    color: #d65471;
+    font-size: 30px;
+}
+ul {
+    display: flex;
+    gap: 1.5em;
+}
+ul li {
+    font-size: 18px;
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+ul a {
+    text-decoration: none;
+}
+ul li:hover {
+    color: #d65471;
+}
+span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+    letter-spacing: .1em;
+}
+section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section div h3 {
+    color: white;
+    margin-top: 1em;
+    letter-spacing: .05em;
+}
+.header_buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+}
+.header_buttons button,.video button {
+    padding: .6em;
+    margin: 2em;
+    border: none;
+    font-size: 18px;
+    border-radius: .2em;
+    cursor: pointer;
+}
+#download_button {
+    background-color: #d65471;
+    color: white;
+}
+#download_button:hover {
+    background-color: black;
+    color: white;
+}
+#features_button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid #d65471;
+}
+#features_button:hover {
+    background-color: #d65471;
+    color: white;
+}
+#about,#portfolio,#services,#team,#blog,#contact {
+    padding-top: 5rem;
+    width: 100vw;
+}
+.about_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_header p {
+    font-size: 20px;
+    color: grey;
+}
+.about_header h2,p {
+    padding: .3em;
+}
+.line_border {
+    width: 70px;
+    height: 2px;
+    background-color: #d65471;
+    margin-top: .6em;
+}
+.about_main {
+    margin-top: 3em;
+    display: grid;
+    flex-direction: row;
+    grid-gap: 3em;
+    grid-template-columns: repeat(auto-fit,20rem);
+}
+#about_text {
+    max-width: 40vw;
+}
+#about_text p {
+    line-height: 1.3em;
+}
+.about_main img {
+    height: 50vh;
+    width: 40vw;
+}
+.grid {
+    padding-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20em);
+}
+.grid img {
+    width: 25vw;
+    height: 200px;
+    filter: none;
+}
+.grid img:hover {
+    
+    filter: grey;
+    cursor: pointer;
+}
+.portfolio_footer {
+    padding-top: 2em;
+}
+.portfolio_footer p {
+    color: grey;
+    font-size: 20px;
+}
+.portfolio_footer button {
+    padding: .6em;
+    border: none;
+    font-size: 18px;
+    border-radius: .2em;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #d65471;
+}
+.portfolio_footer button:hover {
+    background: #d65471;
+    color: white;
+}
+.wrapper_grid {
+    padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,20em);
+  grid-gap: 5em;
+}
+.grid_services {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.grid_services h3{
+  color: #333;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.grid_services p {
+    color: grey;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+i.fas,i.fa {
+    color: #d65471;
+    font-size: 35px;
+}
+.photo_grid {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,15em);
+  grid-gap: 2em;
+}
+.photo img {
+    width: 15em;
+    height: 15em;
+}
+.photo h3 {
+    color: #333;
+}
+.video {
+    background-image: linear-gradient(180deg,rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),
+    url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c31c59f69ff41454c71140_video.jpg");
+}
+.video_text {
+    margin-top: 2em;
+    line-height: 1.6;
+    max-width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.video_text img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1em;
+}
+.blog_grid {
+    padding-top: 3em;
+  padding-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,20em);
+
+  grid-gap: 4em;
+}
+.blog {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.blog img {
+    width: 20em;
+    height: 15em;
+}
+.blog h3{
+  color: #333;
+}
+.blog p {
+    line-height: 1.6;
+}
+.blog span {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+.read_more {
+    display: flex;
+    flex-direction: row;
+    color: #d65471;
+    cursor: pointer;
+    margin-top: .5em;
+}
+.read_more h4 {
+    font-size: 14px;
+    margin-right: 10px;
+}
+.read_more i {
+    font-size: 16px;
+}
+.blog_footer button {
+    padding: .6em;
+    border: none;
+    font-size: 18px;
+    border-radius: .2em;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #d65471;
+}
+.blog_footer button:hover {
+    background: #d65471;
+    color: white;
+}
+.contact_grid {
+    display: grid;
+   padding-top: 3em;
+   grid-gap: 2em;
+   grid-template-columns: repeat(auto-fit,minmax(10em,50em));
+}
+.contactgrid_header {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact_grid input,textarea {
+    padding: 1em;
+    font-size: 16px;
+}
+.contact_grid input::placeholder {
+    font-size: 14px;
+}
+.contact_grid input:focus {
+    outline: 1.5px solid #d65471;
+    border: none;
+}
+.contact_grid textarea::placeholder {
+    font-size: 16px;
+}
+.contact_grid textarea:focus {
+    outline: 1.5px solid #d65471;
+    border: none;
+}
+.contact_footer {
+    padding-top: 3em;
+}
+.contact_footer button {
+    padding: .6em;
+    border: none;
+    font-size: 18px;
+    border-radius: .2em;
+    cursor: pointer;
+    background-color: #d65471;
+    color: white;
+}
+.contact_footer button:hover {
+    background-color: black;
+    color: white;
+}
+i.fab {
+    font-size: 40px;
+    color: #d65471;
+}
+#footer {
+    background-color: lightgray;
+}
+#footer {
+    margin-top: 5em;
+}
+.socials {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,5em);
+    cursor: pointer;
+}
+#footer p {
+    text-align: center;
+    padding-top: 1em;
+}
+#footer p i {
+    font-size: 30px;
+    padding: .5em;
+}

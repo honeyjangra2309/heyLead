@@ -129,7 +129,6 @@ section div h3 {
     grid-template-columns: repeat(auto-fit,20em);
 }
 .grid img {
-    width: 25vw;
     height: 200px;
     filter: none;
 }

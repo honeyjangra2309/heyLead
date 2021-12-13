@@ -113,15 +113,12 @@ section div h3 {
     grid-gap: 3em;
     grid-template-columns: repeat(auto-fit,20rem);
 }
-#about_text {
-    max-width: 40vw;
-}
 #about_text p {
-    line-height: 1.3em;
+    line-height: 1.4em;
+    color: #333;
 }
 .about_main img {
     height: 50vh;
-    width: 40vw;
 }
 .grid {
     padding-top: 2em;
@@ -204,7 +201,6 @@ i.fas,i.fa {
 .video_text {
     margin-top: 2em;
     line-height: 1.6;
-    max-width: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;

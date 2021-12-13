@@ -36,6 +36,9 @@ ul a {
 ul li:hover {
     color: #d65471;
 }
+.home_text {
+  text-align: center;
+}
 span {
     text-transform: uppercase;
     color: white;
@@ -49,9 +52,10 @@ section div {
     align-items: center;
 }
 section div h3 {
-    color: white;
+    color: #fff;
     margin-top: 1em;
     letter-spacing: .05em;
+    line-height: 1.6;
 }
 .header_buttons {
     display: flex;
@@ -96,6 +100,7 @@ section div h3 {
 .about_header p {
     font-size: 20px;
     color: grey;
+    text-align: center;
 }
 .about_header h2,p {
     padding: .3em;
@@ -119,6 +124,7 @@ section div h3 {
 }
 .about_main img {
     height: 50vh;
+    max-width: 100vw;
 }
 .grid {
     padding-top: 2em;
@@ -271,14 +277,14 @@ i.fas,i.fa {
 }
 .contact_grid {
     display: grid;
-   padding-top: 3em;
+   padding: 2em;
    grid-gap: 2em;
-   grid-template-columns: repeat(auto-fit,minmax(10em,50em));
+   grid-template-columns: repeat(auto-fit,minmax(5rem,50rem));
 }
 .contactgrid_header {
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(10em,1fr));
 }
 .contact_grid input,textarea {
     padding: 1em;
